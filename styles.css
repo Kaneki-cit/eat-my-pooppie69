@@ -1,8 +1,15 @@
 body {
-    background-color:rgba(144, 105, 167, 0.61);
+    background-color: rgb(29, 24, 24);
 }
 
-img {
-    transform: translate(1150px);
+h1 {
+
 }
 
+.image-section { 
+    display: flex;
+    justify-content: center;
+
+
+    
+}
