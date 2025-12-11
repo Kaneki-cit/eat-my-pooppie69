@@ -1,5 +1,6 @@
 body {
     background-color: rgb(29, 24, 24);
+    color: darkgoldenrod;
 }
 
 h1 {
@@ -7,9 +8,47 @@ h1 {
 }
 
 .image-section { 
-    display: flex;
-    justify-content: center;
+   display: flex;
+   height: 310px;
+   position: relative;
+   left: 1200px;
+   
 
-
-    
+   
+   
 }
+
+.image-section2 {
+    display: flex;
+   position: relative;
+   right: 20px;
+   top: 500px;
+   height: 320px;
+   background-color: rgb(78, 69, 136);
+   padding: 40px;
+} 
+
+.text-section {
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    top: 220px;
+    background-color: black;
+    border-radius: 50px;
+    padding: 40px;
+    text-align: center ;
+    position: absolute;
+    top: 50%;
+    width: 1000px;
+}
+
+.text-section2 {
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    top: 700px;
+    background-color: black;
+    border-radius: 50px;
+    padding: 40px;
+}
+    
