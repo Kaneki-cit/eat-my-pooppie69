@@ -4,28 +4,35 @@ body {
 }
 
 h1 {
+    background-color: black;
+    position: relative;
+    top: 70px;
+    border-bottom: white;
 
 }
 
 .image-section { 
    display: flex;
    height: 310px;
-   position: relative;
-   left: 1200px;
-   
-
-   
+   position: absolute;
+   right: 10px;
+    background-color: red;
+    padding: 50px;
+    border-radius: 40px;
    
 }
 
 .image-section2 {
     display: flex;
-   position: relative;
-   right: 20px;
-   top: 500px;
-   height: 320px;
-   background-color: rgb(78, 69, 136);
-   padding: 40px;
+   position: absolute;
+   top: 1600px;
+  height: 320px;
+  background-color: rgb(43, 36, 88);
+  padding: 50px;
+  border-radius: 40px;
+  
+   
+
 } 
 
 .text-section {
@@ -39,16 +46,21 @@ h1 {
     text-align: center ;
     position: absolute;
     top: 50%;
-    width: 1000px;
+    width: 700px;
 }
 
 .text-section2 {
     font-size: 30px;
     display: flex;
     position: relative;
-    top: 700px;
+    top: 1100px;
     background-color: black;
     border-radius: 50px;
     padding: 40px;
+
 }
+
+
+   
+
     
