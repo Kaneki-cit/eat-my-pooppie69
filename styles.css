@@ -57,7 +57,15 @@ h1 {
     background-color: black;
     border-radius: 50px;
     padding: 40px;
+}
 
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+   
 }
 
 
